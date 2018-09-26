@@ -14,4 +14,22 @@ CHIP Inc16 {
 
     PARTS:
    // Put you code here:
+Add16(in=a[0],in=b[0],out = out[0]);
+Add16(in=a[1],in=b[1],out = out[1]);
+Add16(in=a[2],in=b[2],out = out[2]);
+Add16(in=a[3],in=b[3],out = out[3]);
+Add16(in=a[4],in=b[4],out = out[4]);
+Add16(in=a[5],in=b[5],out = out[5]);
+Add16(in=a[6],in=b[6],out = out[6]);
+Add16(in=a[6],in=b[6],out = out[6]);
+Add16(in=a[7],in=b[7],out = out[7]);
+Add16(in=a[8],in=b[8],out = out[8]);
+
+
+
+
+
+
+
+
 }
