@@ -43,4 +43,15 @@ CHIP ALU {
 
     PARTS:
    // Put you code here:
+Mux16(in=a,b[0]=true,sel = zx, out=r1);
+Not16(in=r1,out=r2);
+Mux16(in=a,b[0]=true,sel=zy,out=r3);
+Not16(in=r3,out=r4);
+
+
+
+
+
+
+
 }
