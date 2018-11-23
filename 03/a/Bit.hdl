@@ -15,4 +15,7 @@ CHIP Bit {
 
     PARTS:
     // Put your code here:
+    Nor(in = in, load = out)
 }
+
+Nor
