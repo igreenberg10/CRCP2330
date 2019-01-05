@@ -10,11 +10,6 @@
 
 @R2
 M=0
-
-
-
-
-
 @R0
 D=M
 @END
@@ -23,9 +18,9 @@ D;JEQ
 @R1
 D=M
 @END
+D;JEQ
 
-
-@R2
+@R0
 D=M
 @R3
 M=D
@@ -33,11 +28,11 @@ M=D
 (LOOP)
 @R1
 D=M
-@R3
+@R2
 M=D+M
 
-@R2
-M=D-1
+@R3
+M=M-1
 
 D=M
 @LOOP
