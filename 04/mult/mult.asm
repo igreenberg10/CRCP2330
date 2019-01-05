@@ -9,27 +9,42 @@
 // Put your code here.
 
 @R2
-m=0
+M=0
 
 
 
 
-(LOOP)
 
 @R0
 D=M
 @END
 D;JEQ
+
 @R1
-M=M+D
+D=M
+@END
 
 
 @R2
-M=M
+D=M
+@R3
+M=D
+
+(LOOP)
+@R1
+D=M
+@R3
+M=D+M
+
+@R2
+M=D-1
+
+D=M
+@LOOP
+D;JGT
 
 
 
 (END)
-
 @END
 0;JMP //infinite loop
