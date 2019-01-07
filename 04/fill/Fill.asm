@@ -13,7 +13,25 @@
 
 // Put your code here.
 
-@24576
+
+(LOOP)
+@KBD
 D=M
 
-@
+@BLACK
+D;JGT
+
+@WHITE
+D;JEQ
+
+@LOOP
+0;JMP
+
+@KBDCK
+0;JMP
+(BLACK)
+@R1
+M=-1
+
+
+
